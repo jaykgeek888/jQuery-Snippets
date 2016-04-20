@@ -1,11 +1,10 @@
 //DEPENDENCIES TO BE PLACED ON HEAD TAG
 //REFERENCE ---> http://jqueryvalidation.org/documentation/
-<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
-<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/additional-methods.min.js"></script>
+//<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+//<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/additional-methods.min.js"></script>
 
 
-//CALLBACK FUNCTION
-<script>
+//CALLBACK FUNCTION 
 jQuery(document).ready(function() {
 
 		//NORMAL VALIDATION
@@ -35,5 +34,4 @@ jQuery(document).ready(function() {
 					digits: jQuery.validator.format("Phone number needs to be valid.")
 				}
 			}); 
-});
-</script>
+}); 

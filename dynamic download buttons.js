@@ -1,10 +1,6 @@
-<script type="text/javascript">
 $(function() {   
  var cta_print_default = "Download Now"; 
- var url_print_default = "http://milieuproperty.com.au/brochure/PEEL_PRODUCT_BROCHURE_WEB.pdf";
-  
-
- 
+ var url_print_default = "http://milieuproperty.com.au/brochure/PEEL_PRODUCT_BROCHURE_WEB.pdf"; 
 	$.urlParam = function(name){  	 
 	  var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href); 
 	  if (results==null){  
@@ -35,5 +31,4 @@ $(function() {
 	 }
   
 	  $('#lp-pom-box-585').html("<span class='dynamicButton'><a href='" + (url_print) + "'target='_blank'>" + (cta_print) + "</a></span>");  
-});  
-</script>
+}); 
