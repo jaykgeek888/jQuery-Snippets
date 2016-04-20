@@ -9,7 +9,7 @@ $(function() {
 	  else{
 		 return results[1] || 0;
 	  }  
-	}   
+	}    
 	 
  var cta_print_value = decodeURIComponent($.urlParam('download_cta'));  
  var url_print_value = $.urlParam('download_url');   
