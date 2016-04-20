@@ -5,7 +5,7 @@ $(document).ready(function() {
     $(document).scroll(function(){
       if ( $window.scrollTop() >= window_offset) {
          $('#lp-pom-box-810').addClass('scrolled');   
-      } 
+      }  
       else {
          $('#lp-pom-box-810').removeClass('scrolled'); 
       }
