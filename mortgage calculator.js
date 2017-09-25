@@ -1,4 +1,3 @@
-<script  type="text/javascript">    
   $(function() {
       /*field variables*/
       var LoanAmount = $('#loan_amount'),
@@ -189,5 +188,3 @@
       setIntroductoryRate(); 
     }); 
   }); 
-  
-</script>
