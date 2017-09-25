@@ -1,4 +1,3 @@
-<script>
 		var mapstyles = [
 							{
 								"featureType": "water",
@@ -227,4 +226,3 @@
     
     marker.setMap(map);
   }
-</script>
